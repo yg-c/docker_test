@@ -1,0 +1,15 @@
+{
+    "client_code": "THETA",
+    "scripts": [
+        {
+            "name": "script1",
+            "cron": "0,30 8-22 * * *",
+            "command": "script1.py"
+        },
+        {
+            "name": "script2",
+            "cron": "15,45 8-22 * * *",
+            "command": "script2.py"
+        }
+    ]
+}
